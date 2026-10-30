@@ -1,0 +1,25 @@
+# Local toolchains, game input and generated builds
+.tools/
+dist/
+build/
+*.apk
+*.idsig
+*.so
+*.dex
+*.class
+*.jar
+*.zip
+__pycache__/
+*.pyc
+# Private signing material and user data
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.pem
+*.key
+password.txt
+.env
+.env.*
+*backup*/
+*save*/
